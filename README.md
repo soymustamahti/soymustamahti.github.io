@@ -16,5 +16,3 @@
 5. Footer -> DONE
 6. Footer style -> DONE
 7. Responsive -> DONE
-
-# soymustamahti.github.io
