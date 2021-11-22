@@ -1,484 +1,468 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Quicksand";
-    width: 100%;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  width: 100%;
+  height: 100%;
 }
 
 header {
-    background: #c6c9cb;
+  background: #c6c9cb;
 }
 
 header .header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 header .avatar img {
-    border-radius: 50%;
-    width: 240px;
-    height: 260px;
-    margin: 20px;
+  border-radius: 50%;
+  width: 240px;
+  height: 260px;
+  margin: 20px;
 }
 
 header .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: max-content;
-    width: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: max-content;
+  width: 230px;
 }
 
 header .social-media i {
-    width: 50px;
-    height: max-content;
-    transition: ease-in-out 200ms;
+  width: 50px;
+  height: max-content;
+  transition: ease-in-out 200ms;
 }
 
 header .social-media i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 header .contact-details {
-    background-color: #333;
-    overflow: hidden;
-    color: #fff;
-    width: max-content;
-    border-radius: 15px;
-    transition: ease-in-out 200ms;
+  background-color: #333;
+  overflow: hidden;
+  color: #fff;
+  width: max-content;
+  border-radius: 15px;
+  transition: ease-in-out 200ms;
 }
 
 header .contact-details:hover {
-    background-color: #b1b4b6;
-    color: black;
-    cursor: pointer;
+  background-color: #b1b4b6;
+  color: black;
+  cursor: pointer;
 }
 
 header .contact-details p {
-    text-align: center;
-    margin: 15px;
+  text-align: center;
+  margin: 15px;
 }
 
 nav {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    height: 50px;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 50px;
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
 }
 
 nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: ease-in-out 200ms;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: ease-in-out 200ms;
 }
 
 nav a:hover {
-    background-color: #c6c9cb;
-    color: black;
+  background-color: #c6c9cb;
+  color: black;
 }
-
 
 /*=================Main====================*/
 main {
-    background-color: #c6c9cb;
+  background-color: #c6c9cb;
 }
 
 main .about-tecno {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 main .about-container {
-    width: 60%;
-    height: max-content;
-    margin: 20px;
+  width: 60%;
+  height: max-content;
+  margin: 20px;
 }
 
 main .about-container p {
-    width: 100%;
-    text-align: justify;
+  width: 100%;
+  text-align: justify;
 }
 
 main .bar {
-    border-right: solid #333 50px;
+  border-right: solid #333 50px;
 }
 
-
 main .technologies-container {
-    width: 40%;
-    height: max-content;
-    margin: 20px;
+  width: 40%;
+  height: max-content;
+  margin: 20px;
 }
 
 main .technologies-container .tecno-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 main .technologies-container .tecno-content p {
-    margin-left: 20px;
-    text-align: justify;
-
+  margin-left: 20px;
+  text-align: justify;
 }
 
 main .technologies-container i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 main .projects {
-    height: max-content;
-    width: 100%;
+  height: max-content;
+  width: 100%;
 }
 
-
 main .projects article {
-    height: 400px;
-
+  height: 400px;
 }
 
 main .projects .six {
-    width: 60%;
+  width: 60%;
 }
 
 main .projects .four {
-    width: 40%;
+  width: 40%;
 }
 
 main .projects .five {
-    width: 50%;
+  width: 50%;
 }
 
 main .projects article img {
-    transition: ease-in-out 300ms;
-    width: 100%;
-    height: 100%;
+  transition: ease-in-out 300ms;
+  width: 100%;
+  height: 100%;
 }
 
 main .projects article img:hover {
-    opacity: 0.4;
-    cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
-
 main .projects div {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 main .divider-title {
-    height: 50px;
-    background-color: #333;
-    margin: 0;
-    border: none
+  height: 50px;
+  background-color: #333;
+  margin: 0;
+  border: none;
 }
 
 main .divider-title h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    color: #f2f2f2;
-    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #f2f2f2;
+  height: 50px;
 }
 
 main .cv-download {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 800px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 main .cv-download img {
-    width: 200px;
+  width: 200px;
 }
 
 main .contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 main .contact .img-contact {
-    width: 300px
+  width: 300px;
 }
 
 main .contact .contact-form {
-    width: 500px;
-    height: max-content;
-
+  width: 500px;
+  height: max-content;
 }
 
-
-main .contact-form input[type=text], textarea, input[type=email] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    margin-right: 0px;
-    margin-left: 0px;
-    resize: vertical;
+main .contact-form input[type="text"],
+textarea,
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
 }
 
 textarea#subject {
-    height: 200px;
+  height: 200px;
 }
-
 
 main .contact-form label {
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
 }
 
-main .contact-form input[type=submit] {
-    background-color: #1255a2;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "Quicksand";
+main .contact-form input[type="submit"] {
+  background-color: #1255a2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Quicksand";
 }
 
-
-main .contact-form input[type=submit]:hover {
-    background-color: #1872D9;
-
+main .contact-form input[type="submit"]:hover {
+  background-color: #1872d9;
 }
-
 
 main .contact-form {
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #737173;
-    padding: 20px;
-    width: 100%;
-    max-width: 440px;
-    margin-bottom: 30px;
-
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #737173;
+  padding: 20px;
+  width: 100%;
+  max-width: 440px;
+  margin-bottom: 30px;
 }
 
 /*======================Footer=======================*/
 
 footer {
-    width: 100%;
-    height: 100px;
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /*==================media==============================*/
 
 @media only screen and (max-width: 925px) {
+  header .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  header .avatar img {
+    border-radius: 50%;
+    width: 200px;
+    height: 220px;
+    margin: 20px;
+  }
 
-    header .header-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  header .general-info h1,
+  header .general-info h2 {
+    text-align: center;
+  }
 
-    }
+  header .general-info .social-media {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    header .avatar img {
-        border-radius: 50%;
-        width: 200px;
-        height: 220px;
-        margin: 20px;
-    }
+  header .contact-details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
-    header .general-info h1, header .general-info h2 {
-        text-align: center;
-    }
+  main .projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
-    header .general-info .social-media {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  main .projects div {
+    display: flex;
+    flex-direction: column;
+  }
 
-    header .contact-details {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+  main .projects article {
+    width: 100%;
+  }
 
-    main .projects {
-        margin-left: auto;
-        margin-right: auto;
-        width: max-content;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+  main .cv-download {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+  }
 
-    main .projects div {
-        display: flex;
-        flex-direction: column;
-    }
+  main .contact {
+    display: flex;
+    flex-direction: column;
+  }
 
-    main .projects article {
-        width: 100%;
-    }
+  main .projects .six {
+    width: 586px;
+  }
 
-    main .cv-download {
-        width: max-content;
-        display: flex;
-        justify-content: center;
-    }
+  main .projects .four {
+    width: 586px;
+  }
 
-    main .contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    main .projects .six {
-        width: 586px;
-
-    }
-
-    main .projects .four {
-        width: 586px;
-    }
-
-    main .projects .five {
-        width: 586px;
-    }
-
+  main .projects .five {
+    width: 586px;
+  }
 }
 
 @media only screen and (max-width: 880px) {
-    main .about-tecno {
-        display: flex;
-        flex-direction: column;
-    }
+  main .about-tecno {
+    display: flex;
+    flex-direction: column;
+  }
 
-    main .about-container {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  main .about-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    main .technologies-container {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  main .technologies-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    main .bar {
-        display: none;
-    }
+  main .bar {
+    display: none;
+  }
 
-    main .technologies-container .tecno-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  main .technologies-container .tecno-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 620px) {
-    main .cv-download .arrow {
-        display: none;
-    }
+  main .cv-download .arrow {
+    display: none;
+  }
 
-    main .projects .six {
-        width: 386px;
-        height: 200px;
-    }
+  main .projects .six {
+    width: 386px;
+    height: 200px;
+  }
 
-    main .projects .four {
-        width: 386px;
-        height: 200px;
-    }
+  main .projects .four {
+    width: 386px;
+    height: 200px;
+  }
 
-    main .projects .five {
-        width: 386px;
-        height: 200px;
-    }
+  main .projects .five {
+    width: 386px;
+    height: 200px;
+  }
 
-    main .contact .img-contact {
-        width: 200px;
-    }
+  main .contact .img-contact {
+    width: 200px;
+  }
 
+  main .contact .contact-form {
+    width: 300px;
+    height: max-content;
+  }
 
-    main .contact .contact-form {
-        width: 300px;
-        height: max-content;
+  textarea#subject {
+    height: 150px;
+  }
 
-    }
+  main .technologies-container .tecno-content p {
+    text-align: left;
+  }
 
-    textarea#subject {
-        height: 150px;
-    }
-
-    main .technologies-container .tecno-content p {
-        text-align: left;
-    }
-
-    main .technologies-container {
-        width: 60%;
-        height: max-content;
-        margin: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  main .technologies-container {
+    width: 60%;
+    height: max-content;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 415px) {
-    main .projects .six {
-        width: 256px;
-        height: 140px;
-    }
+  main .projects .six {
+    width: 256px;
+    height: 140px;
+  }
 
-    main .projects .four {
-        width: 256px;
-        height: 140px;
-    }
+  main .projects .four {
+    width: 256px;
+    height: 140px;
+  }
 
-    main .projects .five {
-        width: 256px;
-        height: 140px;
-    }
+  main .projects .five {
+    width: 256px;
+    height: 140px;
+  }
 
-    main .about-container p {
-        text-align: left;
-    }
+  main .about-container p {
+    text-align: left;
+  }
 
-    nav a {
-        padding: 10px 12px;
-        font-size: 12px;
-    }
+  nav a {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
 }
-
